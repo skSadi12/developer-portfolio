@@ -37,7 +37,7 @@ nav li {
     list-style: none;
     margin-top: 20px;
     margin-right: 51px;
-    display: flex;
+
 
 }
 
@@ -51,5 +51,19 @@ nav h3 {
 }
 nav{
     justify-content: space-between;
+    display: flex;
+    margin: 0 200px;
+}
+.header{
+    background-color:rgb(253, 219, 206) ;
+    margin-bottom: 30px;
 
+}
+.banner{
+    margin: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .pic {
+    width: 500px;
 }

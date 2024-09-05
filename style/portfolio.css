@@ -1,0 +1,55 @@
+nav {
+    display:flex
+}
+/* // <uniquifier>: Use a unique and descriptive class name */ */
+ /* <weight>: Use a value from 300 to 800 */
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+nav{
+    font-family: "Open Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    flood-color: rgb(39, 5, 5);
+}
+/* nav >h3 >span {
+    color: brown;
+} */
+ 
+.text{
+    color: rgb(233, 93, 17);
+
+}
+nav > ul > li >a {
+    text-decoration: none;
+    
+}
+nav > ul {
+    
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 51px;
+    display: flex;
+
+}
+
+.button{
+    width: 150px;
+    height: 65px;
+    background-color: rgb(233, 93, 17);
+}
+nav h3 {
+    margin-right: 400px;
+}
+nav{
+    justify-content: space-between;
+
+}

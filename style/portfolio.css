@@ -57,6 +57,9 @@ nav{
 .header{
     background-color:rgb(253, 219, 206) ;
     margin-bottom: 30px;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
 }
 .banner{
@@ -66,4 +69,48 @@ nav{
 }
 .banner .pic {
     width: 500px;
+}
+.banner1{
+    font-size: 45px;
+    color: rgb(99, 111, 122);
+    margin-bottom: 0px;
+}
+.banner2{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+}
+.banner3{
+    font-size: 35px;
+}
+
+/* main section  */
+
+/* about section */
+.about{
+    padding: 130px;
+    border-radius:10px ;
+    background-color: rgb(235, 220, 190);
+    margin: 100px 70px 100px 70px;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+.description{
+    text-align: center;
+    font-size: 18px;
+    
+}
+main{
+    min-width: 1140px;
+    margin: 0px auto;
+}
+.about-info-div{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 100px;
 }

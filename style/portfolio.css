@@ -151,3 +151,18 @@ main{
 .resume-item-description , .resume-item-institute {
     color: rgb(106, 101, 101);
 }
+
+
+.cv{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* footer style */
+footer{
+    display: flex;
+    background-color: rgb(202, 151, 130);
+    margin-top: 100px;
+    padding: 130px 200px;
+}

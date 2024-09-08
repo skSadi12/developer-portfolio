@@ -117,13 +117,13 @@ main{
 #what-i-do{
     padding: 30px 150px;
     text-align: center;
-    /* background-color: white; */
+  
 }
 #what{
     margin-top: 30px;
 }
 .skill-div{
-    /* justify-content: center; */
+
     display: flex;
     height: 100%;
     width: 100%;
@@ -131,6 +131,23 @@ main{
 .skill{
     background-color: rgb(234, 234, 226);
     justify-content: space-between;
-    margin: 30px;
+    margin: 24px;
     padding: 20px;
+    box-shadow: 10px 10px 10px rgb(116, 113, 113);
+}
+
+/* resume */
+
+.resume-column-title{
+    color: rgb(48, 49, 50);
+    font-size:30px ;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin: 20px;
+}
+.resume-item-description , .resume-item-institute {
+    color: rgb(106, 101, 101);
 }

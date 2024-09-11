@@ -45,6 +45,7 @@ nav li {
     width: 150px;
     height: 65px;
     background-color: rgb(233, 93, 17);
+    margin-top: 20px;
 }
 nav h3 {
     margin-right: 400px;
@@ -145,8 +146,8 @@ main{
 }
 .resume-container{
     display: flex;
-    gap: 24px;
-    margin: 20px;
+    gap: 35px;
+    margin: 40px; 
 }
 .resume-item-description , .resume-item-institute {
     color: rgb(106, 101, 101);
@@ -163,6 +164,26 @@ main{
 footer{
     display: flex;
     background-color: rgb(202, 151, 130);
+    gap: 100px;
     margin-top: 100px;
-    padding: 130px 200px;
+    padding: 100px ;
+}
+.social-link a{
+    margin-right: 10px;
+
+}
+
+.footer-column{
+    width: 50;
+}
+
+.form input[type="text"] ,.form input[type="email"] , .form textarea {
+    display: block;
+    padding: 10px 30px;
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255) ;
+    border: 0;
+    color: rgb(81, 87, 87);
+    width: 100%;
+    border-radius: 5px;
 }
